@@ -237,7 +237,7 @@ $color_white: #FFF;
 }
 .about__us-image {
   position: relative;
-  width: 534px;
+  min-width: 534px;
   height: 440px;
 }
 .about__us-image--gradient {
@@ -250,6 +250,9 @@ $color_white: #FFF;
   background: radial-gradient(40.17% 39.79% at 50% 50%, rgba(170, 20, 240, 0.28) 0%, rgba(170, 20, 240, 0.00) 100%);
 }
 .about__us-first {
+  position: relative;
+  width: 302px;
+  height: 324px;
   svg {
     position: absolute;
     top: 0;
@@ -257,6 +260,11 @@ $color_white: #FFF;
   }
 }
 .about__us-second {
+  position: relative;
+  width: 313px;
+  height: 334px;
+  bottom: 215px;
+  left: 222px;
   svg {
     position: absolute;
     bottom: 0;
@@ -291,7 +299,7 @@ $color_white: #FFF;
   }
 }
 .about__us-content {
-  margin-left: 15px;
+  margin-left: 25px;
 }
 .about__us-content-box {
   max-width: 520px;
