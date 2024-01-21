@@ -767,7 +767,8 @@ $color_white: #FFF;
   }
   .about__us-first__image {
     position: static;
-    filter: drop-shadow(13px 8px 10px #ff00f7);
+    box-shadow: (13px 8px 8px #ff00f7);
+    border-radius: 0 30px 0 30px ;
     &:hover {
       transform: scale(1);
     }

@@ -1007,8 +1007,9 @@
   }
   .about__us-first__image {
     position: static;
-    -webkit-filter: drop-shadow(13px 8px 10px #ff00f7);
-            filter: drop-shadow(13px 8px 10px #ff00f7);
+    -webkit-box-shadow: 13px 8px 8px #ff00f7;
+            box-shadow: 13px 8px 8px #ff00f7;
+    border-radius: 0 30px 0 30px;
   }
   .about__us-first__image:hover {
     -webkit-transform: scale(1);
